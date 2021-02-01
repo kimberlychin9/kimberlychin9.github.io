@@ -14,7 +14,7 @@ img {
  
 @font-face {
     font-family: Beloved Script;
-    src: url(https://fonts.adobe.com/fonts/beloved);
+    src: url(beloved script.ott);
 }
 
 h1 {
@@ -27,7 +27,6 @@ h1 {
     padding: 0.5em 0.5em;
     line-height: 1.2em;
 }
-
 h2 {
     font-family:ITC Avant Garde Gothic Pro;
     text-align: center;
@@ -43,8 +42,8 @@ figcaption {
     font-size: 0.75em;
     text-align: center;
 }
-
 h3 { 
+
     color: rgb(255,255,255);
     background-color: rgb(120,120,120);
     font-size: 1.8em;
@@ -60,15 +59,20 @@ ol, ul {
     font-size: 0.8em;
     line-height: 1.5em;
     padding: 0.5em;
+    
+    
 }
-
 footer {
     background-color: rgb(150,40,40);
     color: rgb(250,250,250);
     text-align: center;
     font-family: ITC Avant Garde Gothic Pro;
     padding: 1em;
-    margin: 0.5em 0em 0em 0em;   
+    margin: 0.5em 0em 0em 0em;
+    
 }
+
+
+
 
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
