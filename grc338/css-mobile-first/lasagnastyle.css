@@ -13,8 +13,11 @@ img {
 }
  
 @font-face {
-    font-family: 'Beloved Script';
-    src: url(beloved script.ott);
+    font-family: "Beloved Script";
+    src: url("beloved script.ott");
+    src: url("beloved script.woff") format("woff"),
+        url("beloved script.otf") format("opentype"),
+        url("CustomFont.svg#filename") format("svg");
 }
 
 h1 {
