@@ -1,73 +1,78 @@
-/*CSS DOCUMENT*/
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-@font-face{
+\/*CSS DOCUMENT*/
+<meta name="viewport" content="width=device-width, initial-scale=1.0" > @font-face {
     font-family: Bilo;
     src: url(https://fonts.adobe.com/fonts/bilo);
 }
 
-h1{
+div.container {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: Bilo;
     font-weight: bold;
     text-align: left;
     background-color: rgb(200 80 100);
-    padding: 0.2em;
+    padding: 0.5em;
+    margin: 0.5em 0em 0.5em 0em;
     color: rgb(255 255 255);
-    font-size: 2em
-    
+    font-size: 2em;
 }
 
-h3{
+h3 {
     font-family: Bilo;
     text-align: left;
-    margin: 2em 1em 1em 1em;
-    
+    margin: 0em 0em 0em 0em;
+    padding: 1em 0em 0em 1em;
+    text-transform: capitalize;
 }
 
-h4{
+h4 {
     font-family: Bilo;
     text-align: left;
-    margin: 2em 2em 0em 0.2em;
-    
+    margin: 1em 0em 0em 0em;
 }
 
-p{
+p {
     font-family: Bilo;
     text-align: left;
-    margin: 0.2em 3em 0em 1em;
-    
+    margin: 0.2em 0em 0em 0em;
+    padding: 0em 0em 0em 1em;
 }
 
-footer{
+footer {
     margin-top: 3em;
     padding: 1em;
     background-color: rgb(200 80 100);
+    text-align: center;
 }
 
-li{
+li {
     list-style: none;
     padding: 0;
 }
 
-img{
-    margin:auto;
-    width: 100%;
+img {
+    margin: auto;
+    width: 80%;
     display: block;
 }
 
-nav ul{
+nav ul {
     text-align: center;
     text-decoration: none;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     list-style-type: none;
     margin: 0em 1em 0em 0em;
+    padding: 0em;
     font-family: Bilo;
     list-style-type: none;
     font-size: 1.5em;
@@ -76,17 +81,29 @@ nav ul li{
     font-style: italic;
 }
 
-nav ul li a{
+nav ul li a {
     color: rgb(200 80 100);
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(50 50 50);
 }
 
 img {
-    width: 100%; 
+    width: 100%;
 }
 
+@media screen and (min-width: 60em) {
+    main {
+        max-width: 40em;
+        display: block;
+        margin: 0 auto;
+    }
+    img {
+        display: block;
+        max-width: 40em;
+        margin: auto;
+    }
+}
 /*Please don’t change this CSS stylesheet for the content hierarchy assginment */
